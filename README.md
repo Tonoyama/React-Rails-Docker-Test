@@ -1,4 +1,4 @@
-# ToDo リスト
+# 研究用リポジトリ
 
 - React
 - Ruby on Rails
