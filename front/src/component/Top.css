@@ -1,0 +1,33 @@
+.Top-wrapper {
+    height: 150vh;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f3f3ef;
+}
+
+.Top-title {
+    display: flex;
+    color: #ff8e3c;
+    font-size: calc(20px + 2vmin);
+    font-weight: bold;
+}
+
+.Top-Link {
+    color: #3ca1ff;
+    font-size: calc(20px + 2vmin);
+}
+
+  .Top-body {
+    height: 75vh;
+    background-color: #fffffe;
+    font-size: calc(10px + 2vmin);
+    color: #0d0d0d;
+    font-weight: bold;
+  }
+
+  .Top-footer {
+    height: 15vh;
+    background-color: #eff0f3;
+  }
