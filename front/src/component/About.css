@@ -1,0 +1,68 @@
+body {
+    background-color: #f1f1f1;
+}
+
+img {
+  width: 20em;
+  height: 15em;
+  object-fit: cover;
+  border-radius: 50px;
+}
+
+.Sidenav {
+  padding: 2em 10px 10px 2em;
+  float: left;
+  text-align: center;
+}
+.Comment {
+  padding-top: 2em;
+  padding-right: 2em;
+  width: 55%;
+  float: right;
+  word-break: normal;
+}
+
+.Bold-font {
+  color: #3f3f3f;
+  font-weight: bold;
+  font-size: calc(10px + 2vmin);
+}
+
+.Light-font {
+  color: #3f3f3f;
+  font-weight: lighter;
+  font-size: calc(10px + 2vmin);
+}
+
+.tabs li {
+    list-style: none;
+    text-align: center;
+    color: #3f3f3f;
+    width: 100px;
+    padding: 0.5em 1em;
+    display: inline-block;
+    border-radius: 10px;
+    background:  #ffffff;
+    box-shadow:  -6px 6px 12px	#bbbbbb,
+                6px -6px 12px #ffffff;
+    margin-right: 3em;
+  }
+
+  .tabs li.active {
+    color: #3f3f3f;
+    font-weight: bold;
+    border-radius: 15px;
+    border: 3px solid #f1f1f1;
+    box-shadow: 5px 5px 10px #c9c9c9, -5px -5px 10px #ffffff,
+    inset 3px 3px 5px #c9c9c9, inset -3px -3px 5px #ffffff;
+    cursor: pointer;
+  }
+
+  .contents {
+    margin: 10px 15px 10px 15px;
+    overflow: auto;
+    border-radius: 50px;
+    background: #ffffff;
+    box-shadow:  -6px 6px 12px	#bbbbbb,
+                6px -6px 12px #ffffff;
+  }
